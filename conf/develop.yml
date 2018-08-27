@@ -1,0 +1,21 @@
+---
+    server:
+        port: 8848
+        feRoot: 'http://localhost:8848'
+
+    database:
+
+        dialect: mysql
+
+        mysql:
+            database: edit-system
+            username: root
+            password: '893228'
+            port: 3306
+            host: localhost
+            storage: database/mysql.db
+
+    jwt:
+        secret: edit-syetem
+        key: jwt
+        duration: 3600
