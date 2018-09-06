@@ -4,9 +4,7 @@
         feRoot: 'http://localhost:8848'
 
     database:
-
         dialect: mysql
-
         mysql:
             database: edit-system
             username: root
