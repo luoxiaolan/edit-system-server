@@ -14,5 +14,5 @@ sequelize
         force: true
     })
     .then(() => {
-        console.log(arguments)
+        console.log(arguments);
     });
