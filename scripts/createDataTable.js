@@ -1,14 +1,11 @@
 /**
  * @file create database for edit system
  */
-
-require('babel-core/register');
+const db = require('../lib/model/db.js');
 
 require('../lib/model/User.js');
 
-const sequelize = require('../lib/model/db.js');
-
-sequelize
+db.connection
     .sync({
         logging: console.log,
         force: true

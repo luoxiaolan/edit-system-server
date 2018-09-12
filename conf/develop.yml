@@ -6,12 +6,11 @@
     database:
         dialect: mysql
         mysql:
-            database: edit-system
-            username: root
-            password: '893228'
-            port: 3306
-            host: localhost
-            storage: database/mysql.db
+            database: edit_system
+            username: dev
+            password: dev
+            port: 8014
+            host: cp01-yangpei01.epc.baidu.com
 
     jwt:
         secret: edit-syetem
