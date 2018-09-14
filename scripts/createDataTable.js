@@ -4,7 +4,7 @@
 const db = require('../lib/model/db.js');
 
 require('../lib/model/User.js');
-require('../lib/model/Artical.js');
+require('../lib/model/Article.js');
 require('../lib/model/Img.js');
 
 db.connection
