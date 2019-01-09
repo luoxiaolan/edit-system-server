@@ -15,4 +15,4 @@
     jwt:
         secret: edit-syetem
         key: jwt
-        duration: 3600
+        duration: '4h'
