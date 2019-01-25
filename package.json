@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon lib/index.js",
+    "dev": "nodemon lib/index.js",
+    "start": "NODE_ENV=production nodemon lib/index.js",
     "createDB": "node scripts/createDataTable"
   },
   "keywords": [
@@ -16,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-proxy-middleware": "^0.19.1",
     "js-yaml": "^3.12.0",
     "jsonwebtoken": "^8.3.0",
     "koa": "^2.5.2",
@@ -23,6 +25,7 @@
     "koa-jwt": "^3.3.2",
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.1",
     "nodemon": "^1.18.3",
