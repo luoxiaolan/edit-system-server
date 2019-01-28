@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon lib/index.js",
-    "start": "NODE_ENV=production nodemon lib/index.js",
+    "start": "NODE_ENV=production node --harmony lib/index.js",
+    "prod": "pm2 start ./pm2.json --env=prod",
     "createDB": "node scripts/createDataTable"
   },
   "keywords": [

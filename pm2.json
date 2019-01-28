@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "edit system",
+            "script": "lib/index.js",
+            "env": {
+                "NODE_ENV": "develop"
+            },
+            "env_prod": {
+                "NODE_ENV": "production"
+            },
+            "node_args": "--harmony"
+        }
+    ]
+}
