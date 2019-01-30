@@ -2,6 +2,7 @@
     server:
         port: 8848
         feRoot: '/Users/baidu/work/lxl/edit-system/edit-system-fe/dist'
+        update: '/Users/baidu/work/lxl/edit-system/update/img'
 
     database:
         dialect: mysql
